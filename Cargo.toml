@@ -35,12 +35,12 @@ name = "collision"
 serde = ["serde_crate", "cgmath/serde", "num/serde"]
 
 [dependencies]
-rand = "0.8.4"
+rand = "0.8.5"
 cgmath = "0.18.0"
-serde_crate = { version = "1.0.126", package="serde", optional = true, features = ["derive"] }
-bit-set = "0.5.2"
-smallvec = "1.6.1"
-num = "0.4.0"
+serde_crate = { version = "1.0.197", package="serde", optional = true, features = ["derive"] }
+bit-set = "0.5.3"
+smallvec = "1.13.1"
+num = "0.4.1"
 
 [dev-dependencies]
-genmesh = "0.5"
+genmesh = "0.6"
